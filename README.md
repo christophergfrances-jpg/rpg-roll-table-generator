@@ -1,5 +1,5 @@
 # rpg-roll-table-generator
-Some roleplaying games use rollable loot tables, but then don't update those tables to include new content (I'm looking at you, Fallout 2d20). I created this webapp for my GM to dynamically generate tables.
+Some roleplaying games use rollable loot tables, but then don't update those tables to include new content (I'm looking at you, Fallout 2d20). When using rollable tables, adding elements is not as simple as just adding additional rows, since it is intended for rolling Xd20 to get the result. Therefore, results in the middle of the table will be more common than results at the beginning or end. I created this webapp for my GM to dynamically generate tables, with distributions per rarity rating.
 
 See the logic for creating the tables [here](src/lib/lootTableData.js).
 
