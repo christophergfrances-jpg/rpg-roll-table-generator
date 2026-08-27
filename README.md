@@ -1,6 +1,8 @@
 # rpg-roll-table-generator
 Some roleplaying games use rollable loot tables, but then don't update those tables to include new content (I'm looking at you, Fallout 2d20). I created this webapp for my GM to dynamically generate tables.
 
+See the logic for creating the tables [here](src/lib/lootTableData.js).
+
 Built using svelte.
 
 # create-svelte
