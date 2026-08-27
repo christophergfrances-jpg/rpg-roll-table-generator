@@ -12,6 +12,7 @@
   let diceCount = 0;
   let hasHomebrew = false;
   let allowHomebrew = false;
+  
   onMount(() => {
     allowHomebrew = $page.url.searchParams.has('homebrew');
   });
