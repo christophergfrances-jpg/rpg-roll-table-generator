@@ -1,6 +1,6 @@
 export function getDiceCount(items) {
   const size = items.length;
-  const count = Math.ceil(size/20)+(size%20 === 0 ? 1 : 0);
+  const count = Math.ceil(size / 20) + (size % 20 === 0 ? 1 : 0);
   return count;
 }
 
