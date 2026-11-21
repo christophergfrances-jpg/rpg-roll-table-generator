@@ -34,7 +34,7 @@ function determineWhichIndicesToRepeat(diff, range) {
   let idxCounter = 1;
   while (added < diff) {
     // if it reaches the outer bounds, reset to middle
-    if (mid+idxCounter === max || mid-idxCounter === min) {
+    if (mid + idxCounter === max || mid - idxCounter === min) {
       idxCounter = 1;
     }
     // start from middle, go out
@@ -74,7 +74,7 @@ function singleDieTable(items) {
   }
   table.sort((a, b) => a.name.localeCompare(b.name)); // alphabetical
   return table.reduce((acc, item, idx) => {
-    acc[idx+1] = item;
+    acc[idx + 1] = item;
     return acc;
   }, {});
 }
